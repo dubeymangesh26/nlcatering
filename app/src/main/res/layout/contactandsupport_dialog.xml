@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#bfbfbf"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Need Help?"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <TextView
+                android:id="@+id/customercareemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="Email: support@nlcatering.nl"
+                android:textColor="@color/customercolour" />
+
+
+            <TextView
+                android:id="@+id/customercareno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:text="PH: 085-0602880"
+                android:textColor="@color/customercolour" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

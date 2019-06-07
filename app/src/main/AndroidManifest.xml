@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dotcom.nlcatering">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BaseThemMY">
+        <activity android:name=".CustomerActivity.PaymentActivity.AfterPaymentActivity"></activity>
+        <activity android:name=".CustomerActivity.PaymentActivity.CustomerPaymentActivity" />
+        <activity android:name=".Activity.CheckInternetScreen" />
+        <activity android:name=".CustomerActivity.ActivitryMain_And_Sub.CustomerProfileDetails" />
+        <activity android:name=".CaterersActivity.Caterers_Main_Sub.CaterersProfileDetails" />
+        <activity android:name=".CaterersActivity.CaterersOrders.CaterersOrdersDetails" />
+        <activity android:name=".CaterersActivity.CaterersOrders.CaterersOrderList" />
+        <activity android:name=".CaterersActivity.CaterersEnquiries.CaterersEnquiryDetails" />
+        <activity android:name=".CaterersActivity.CaterersEnquiries.CaterersEnquiryList" />
+        <activity android:name=".CaterersActivity.CaterersCredentials.CaterersResetPassward" />
+        <activity android:name=".CaterersActivity.CaterersCredentials.CaterersForgotPassword" />
+        <activity android:name=".CustomerActivity.CustomerEnquiries.CustomerEnquiriesDetails" />
+        <activity android:name=".CustomerActivity.CustomerEnquiries.CustomerEnqueriesList" />
+        <activity android:name=".CustomerActivity.CustomerOrders.CustomerOrderList" />
+        <activity android:name=".CustomerActivity.CustomerOrders.CustomerOederDetails" />
+        <activity android:name=".CustomerActivity.CustomerPayment.CustomerPaymentPage" />
+        <activity android:name=".CustomerActivity.CustomerBiddings.CustomerBiddingDetails" />
+        <activity android:name=".CustomerActivity.CustomerBiddings.CustomerBiddingList" />
+        <activity android:name=".CustomerActivity.CustomerOrders.CustomerOrder" />
+        <activity android:name=".CustomerActivity.CustomerBiddings.CustomerBidding" />
+        <activity android:name=".CustomerActivity.ActivitryMain_And_Sub.FoodType"/>
+        <activity android:name=".CustomerActivity.ActivitryMain_And_Sub.CustomerQuotation" />
+        <activity android:name=".CustomerActivity.CustomerCredentials.CustomerLogin" />
+        <activity android:name=".CustomerActivity.CustomerCredentials.CustomerRegistration" />
+        <activity android:name=".CustomerActivity.CustomerCredentials.CustomerResetPassward" />
+        <activity android:name=".CustomerActivity.CustomerCredentials.CustomerForgotPassward" />
+        <activity android:name=".CaterersActivity.CaterersCredentials.CatererRegistration" />
+        <activity android:name=".CaterersActivity.CaterersCredentials.CatererLogin" />
+        <activity android:name=".SpalshAndSelection.LoginType" />
+        <activity
+            android:name=".SpalshAndSelection.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseThemMY">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpalshAndSelection.LanguageSelection"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseThemMY"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CaterersActivity.Caterers_Main_Sub.CatererMainActivity"
+            android:label="@string/cust_mainactivity_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseThemMY" />
+        <activity
+            android:name=".CustomerActivity.ActivitryMain_And_Sub.CustomerMainActivity"
+            android:label="@string/cust_mainactivity_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseThemMY" />
+    </application>
+
+</manifest>

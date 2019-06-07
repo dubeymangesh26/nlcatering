@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CaterersActivity.CaterersCredentials.CatererRegistration">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:translationZ="16dp"
+        android:elevation="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/caterercolour"
+        style="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_whitw_24dp"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:text="@string/registerheading"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/categeory_shpe"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textSize="15dp"
+                    android:drawablePadding="10dp"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:drawableRight="@drawable/mandetoryfield"
+                    android:background="@null"
+                    android:id="@+id/companyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:hint="@string/companyname"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/vet_at_home_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/categeory_shpe"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:ems="5"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:gravity="left|top"
+                    android:id="@+id/address"
+                    android:hint="@string/addresss"
+                    android:drawableRight="@drawable/mandetoryfield"
+                    android:inputType="textMultiLine"
+                    android:textSize="15dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/categeory_shpe"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textSize="15dp"
+                    android:drawablePadding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:id="@+id/conttctno1"
+                    android:maxLength="16"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:drawableRight="@drawable/mandetoryfield"
+                    android:inputType="phone"
+                    android:layout_marginBottom="5dp"
+                    android:hint="@string/contact1"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/categeory_shpe"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textSize="15dp"
+                    android:drawablePadding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:id="@+id/conttctno2"
+                    android:maxLength="16"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:inputType="phone"
+                    android:layout_marginBottom="5dp"
+                    android:hint="@string/contact2"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/categeory_shpe"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:textSize="15dp"
+                    android:drawablePadding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:id="@+id/emailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:drawableRight="@drawable/mandetoryfield"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginBottom="5dp"
+                    android:hint="@string/emailaddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/categeory_shpe"
+                    android:gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp">
+
+                    <Spinner
+
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:inputType="text"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:background="@null"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/selectcity"
+                        android:id="@+id/city"
+                        android:drawableRight="@drawable/mandetoryfield"
+                        android:textSize="15dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/categeory_shpe"
+                    android:gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+                    <AutoCompleteTextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:background="@null"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/pincode"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:id="@+id/pincode"
+                        android:drawableRight="@drawable/mandetoryfield"
+                        android:textSize="15dp" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/categeory_shpe"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <AutoCompleteTextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/website"
+                    android:id="@+id/website"
+                    android:textSize="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/categeory_shpe"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <AutoCompleteTextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:hint="KYK"
+                    android:id="@+id/kyk"
+                    android:textSize="15dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/categeory_shpe">
+
+            <com.dotcom.nlcatering.Activity.MultiSelectionSpinner
+                android:id="@+id/typeCatering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp" >
+
+            </com.dotcom.nlcatering.Activity.MultiSelectionSpinner>
+
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/categeory_shpe"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <AutoCompleteTextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/workarea"
+                    android:id="@+id/workArea"
+                    android:textSize="15dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:textColor="#fff"
+                android:text="@string/register"
+                android:background="@drawable/curveshape_caterer"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/blacklight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alreadyregister" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signintxt"
+                    android:text="@string/signin" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

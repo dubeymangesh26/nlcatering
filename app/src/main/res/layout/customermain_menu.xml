@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:elevation="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/menu_image"
+                    android:transitionName="diagnostic_image"
+                    android:padding="2dp"
+                    android:background="@drawable/categeory_shpe"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_170sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/menuName"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textColor="#2b2929"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

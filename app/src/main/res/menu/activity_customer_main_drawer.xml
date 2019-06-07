@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/caterercolour"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/custEnquries"
+            android:icon="@drawable/enquiry__white"
+            android:visible="false"
+            android:title="@string/enquires" />
+        <item
+            android:id="@+id/custBidding"
+            android:icon="@drawable/bidding_icon_white"
+            android:visible="false"
+            android:title="@string/bidding" />
+        <item
+            android:id="@+id/custOrder"
+            android:icon="@drawable/order_icon_white"
+            android:visible="false"
+            android:title="@string/order" />
+
+        <item
+            android:id="@+id/cusrResetpass"
+            android:icon="@drawable/reset_password_white"
+            android:visible="false"
+            android:title="@string/resetpass" />
+        <item
+            android:id="@+id/langselecton"
+            android:icon="@drawable/change_password_white"
+            android:title="@string/langselection" />
+
+        <item
+            android:id="@+id/custLogout"
+            android:icon="@drawable/logout_icon_white"
+            android:visible="false"
+            android:title="@string/logout" />
+
+        <item
+            android:id="@+id/custLogin"
+            android:icon="@drawable/logout_icon_white"
+            android:visible="true"
+            android:title="Login" />
+
+
+    </group>
+
+
+</menu>

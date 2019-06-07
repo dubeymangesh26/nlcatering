@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/langsellection"
+    tools:context=".CaterersActivity.CaterersCredentials.CatererLogin">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/caterers_editer_squrewhite"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <EditText
+
+                    android:id="@+id/catererUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@null"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:hint="@string/usernamename"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/caterers_editer_squrewhite"
+                android:gravity="center"
+                android:padding="5dp">
+                <EditText
+                    android:id="@+id/catererPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@null"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:hint="@string/passward"
+                    android:inputType="textPassword"
+                    android:textSize="15dp"
+                    tools:ignore="HardcodedText"/>
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/showPassward"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/customercolour"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/showpassward" />
+
+                <TextView
+                    android:id="@+id/forgotpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/forgpassward" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/squrebuttonfor_caterer"
+                android:text="@string/signin"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notregister"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/regstetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="@string/register"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

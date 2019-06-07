@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">nlcatering</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_caterer_main">CatererMainActivity</string>
+    <string name="load">Loading...</string>
+
+    <!-- String For Language Change -->
+
+    <string name="languagechoose">Kies je taal</string>
+    <string name="logintypehedding">Op zoek naar een cateraar voor uw feest of bedrijfslunch?</string>
+    <string name="customertype">IK BEN OP ZOEK NAAR EEN CATERAAR</string>
+    <string name="caterertype">IK BEN EEN CATERAAR</string>
+    <string name="usernamename">Gebruikersnaam</string>
+    <string name="passward">Wachtwoord</string>
+    <string name="cnfpassward"> bevestig wachtwoord</string>
+    <string name="showpassward">Laat wachtwoord zien</string>
+    <string name="forgpassward">Wachtwoord vergeten</string>
+    <string name="signin">Aanmelden</string>
+    <string name="notregister">Niet registreren?</string>
+    <string name="register">Registreren</string>
+    <string name="enquires">vragen</string>
+    <string name="bidding">bod</string>
+    <string name="order">Bestellen</string>
+    <string name="resetpass">Reset wachtwoord</string>
+    <string name="logout">Uitloggen</string>
+    <string name="logintypraction">Aanmeldtype</string>
+    <string name="languagechange">Wijzig de taal</string>
+    <string name="noofplate">Nee. Van plaat</string>
+    <string name="bidstatus">Bid Staat :</string>
+    <string name="action">Actie</string>
+    <string name="customername">klantnaam</string>
+    <string name="pincode">Pin Code</string>
+    <string name="orderdetails">Adres</string>
+    <string name="actioncaterertype">Traiteur Type</string>
+    <string name="dishtype">Schotel Type</string>
+    <string name="requestforquote">Verzoek voor een citaat</string>
+    <string name="placeorder">Plaats Bestellen</string>
+    <string name="totalprice">Totaal Prijs </string>
+    <string name="makepayment">Maken Betaling</string>
+    <string name="submit">voorleggen</string>
+    <string name="companyname">Bedrijf Naam</string>
+    <string name="needhelp"> Hulp nodig? </string>
+    <string name="whatswishes">Wat zijn jouw wensen?</string>
+    <string name="registerheading">Wat zijn jouw wensen?</string>
+    <string name="contact">Contact nummer</string>
+    <string name="contact1">Contact nummer-1</string>
+    <string name="contact2">Contact nummer-2</string>
+    <string name="emailaddress">E-mail Adres</string>
+    <string name="city">Stad</string>
+    <string name="selectcity">Selecteer Stad</string>
+    <string name="website">Website</string>Werkgebied
+    <string name="workarea">Werkgebied</string>
+    <string name="alreadyregister">Al geregistreerd ?</string>
+    <string name="placeofperformance">Plaats van uitvoering</string>
+    <string name="quotsubmit">Voorleggen</string>
+    <string name="registerform">Registratie Het formulier</string>
+    <string name="custname">Naam</string>
+    <string name="enteryouremail">Vul uw Register in Email ID</string>
+    <string name="changepass">Wachtwoord Wijzigen</string>
+    <string name="oldpass">Oud Wachtwoord</string>
+    <string name="newpass">Nieuw Paswoord</string>
+    <string name="cnfpass">bevestig wachtwoord</string>
+    <string name="chooselang">Kies Je Taal</string>
+    <string name="cust_mainactivity_name">Huis</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email</string>
+    <string name="langselection">Wijzig Taal</string>
+    <string name="company_name">Bedrijf Naam :</string>
+    <string name="orderid">Bestellen ID :</string>
+    <string name="mob_caterer">Traiteur Aantal :</string>
+    <string name="date">Datum :</string>
+    <string name="time">Tijd :</string>
+    <string name="noofpersion">Aantal van persoon :</string>
+    <string name="amount">Bedrag :</string>
+    <string name="paymentstatus">Betaling staat :</string>
+    <string name="addresss">Adres :</string>
+    <string name="cateringType">Traiteur Type :</string>
+    <string name="description">Omschrijving :</string>
+    <string name="place">Plaats :</string>
+    <string name="bid">Bod</string>
+    <string name="proceedtopayment">Doorgaan Naar Betaling</string>
+
+
+
+    /////////// Term And Condition //////////
+    <string name="termAndCondHeading">Voorwaarden</string>
+    <string name="termAndCond_SubHeading">NLCATERING is een cateringbestelsite.</string>
+    <string name="termAndCond_SubHeading_content">Het hoofdkantoor bevindt zich aan de Bamendaweg 48B in Dordrecht. NLCATERING is geregistreerd in het handelsregister.
+        Dit document is van toepassing op de consumentenklanten van NLCATERING.nl.
+        Elke correspondentie kan worden gestuurd naar info@nlcatering.nl of naar het bovenstaande adres.</string>
+    <string name="termhed1">1. Definitie</string>
+    <string name="ternhed1_content">In de algemene voorwaarden hebben de volgende termen de volgende betekenis:
+        NLCATERING, klanten en cateringbedrijven.
+        Klanten zijn consumenten die een cateringaanbieding willen ontvangen. Horecabedrijven zijn bedrijven die catering aanbieden.</string>
+    <string name="termhed2">2. Aanbiedingen</string>
+    <string name="termhed2_content">Aanbiedingen van cateringbedrijven zijn 10 dagen na aanbieding geldig.</string>
+    <string name="termhed3">3. Levering</string>
+    <string name="termhed3_content">In het geval van zakelijke klanten worden de snacks bezorgd bij de receptie als deze aanwezig is. NLCATERING is niet verantwoordelijk voor de interne levering. Als de snacks niet op het afleveradres kunnen worden bezorgd, probeert de chauffeur de snacks naar een nabijgelegen adres te brengen. Als dit niet mogelijk is, worden de snacks weer weggehaald en wordt er een afhaalboodschap op de bus gezet, die beschrijft dat je de bestelling dezelfde dag op een afhaaladres kunt ophalen. Als u de bestelling niet ophaalt, wordt u in geen geval van uw betalingsverplichting ontheven. In dit geval blijft de klant verantwoordelijk voor alle gemaakte kosten.</string>
+    <string name="termhed4">4. Betaling</string>
+    <string name="termhed4_content">Via de NLCATERING-website dient u uw bestelling in te dienen. Om de bestelling te bevestigen, ontvangt de klant een bericht ter bevestiging van de bestelling. Aan dit bericht wordt een factuur toegevoegd die in overleg met en aan de bezorger moet worden betaald. U kunt er ook voor kiezen om bij aflevering of online met Ideal aan de deur te betalen.</string>
+    <string name="termhed5">5. Aansprakelijkheid</string>
+    <string name="termhed5_content">NLCATERING kan niet aansprakelijk worden gesteld. NLCATERING werkt samen met cateraars door heel Nederland. Ze zijn de uitvoerende partij, bevestigen de bestelling, bereiden de afwas voor en bezorgen ze. Ze factureren u ook. U bent ook verantwoordelijk voor de juiste bezorging van het bezorg- en factuuradres. Nadat de klant online een bestelling heeft geplaatst, ontvangt de klant een bevestiging per e-mail; de bestelling, het afleveradres, de leverdatum, de levertijd en de kosten. Wat in deze bevestiging wordt beschreven, is waaraan de klant zich conformeert.</string>
+    <string name="termhed6">6. Annulering</string>
+    <string name="termhed6_content">Voorafgaand aan de leveringsdatum kan de klant annuleren. Tot 7 dagen voorafgaand aan de bezorgdatum is de annulering kosteloos. Voor annuleringen die tussen 7 en 3 dagen voorafgaand aan de bezorgdatum vallen, worden 25% annuleringskosten met een minimum van € 25,00 in rekening gebracht. Annuleringen die korter zijn dan 3 dagen voorafgaand aan de bezorgdatum worden volledig in rekening gebracht. Om een ​​bestelling te annuleren, moet de klant contact opnemen met de klantenservice van NLCATERING. De annulering wordt definitief nadat NLCATERING dit schriftelijk / per post aan u heeft bevestigd.</string>
+    <string name="termhed7">Privacyverklaring</string>
+    <string name="termhed7_content"> NLCATERING is zeer voorzichtig met haar klantinformatie en zal deze informatie nooit beschikbaar stellen aan derden. NLCATERING houdt zich aan de regels die zijn vastgelegd in de Wet bescherming persoonsgegevens (WBP), evenals op de nieuwe Europese richtlijnen en de wijziging van de WBP.</string>
+    <string name="termhed8">8. Verkoop- en leveringsvoorwaarden</string>
+    <string name="termhed8_1">8.1 Omgaan met persoonlijke gegevens</string>
+    <string name="termhed_1_content">De gegevens worden alleen gebruikt zoals uitgelegd in deze algemene voorwaarden. NLCATERING verbindt zich ertoe de verzamelde gegevens niet te verkopen, door te geven of te verhuren aan derden voor commerciële doeleinden. We geven echter wel uw adresinformatie door aan de cateraar waar uw bestelling zal worden verwerkt, om de levering te vergemakkelijken. Uw e-mailadres wordt alleen intern gebruikt door NLCATERING en wordt doorgegeven aan de cateraar. Uitzondering op het bovenstaande zijn verzoeken van de nationale overheid, bijvoorbeeld in het geval van een politieonderzoek.</string>
+    <string name="termhed8_2">8.2 Relatie met cateraars en andere derde partijen</string>
+    <string name="termhed8_2_content">Als u bij NLCATERING bestelt, geven we de bestelling door aan de cateraar in uw regio. Mocht het voor ons duidelijk zijn dat we om welke reden dan ook niet kunnen leveren, dan zullen we u hierover onmiddellijk informeren. NLCATERING is slechts een tussenpersoon in deze operatie. De feitelijke leveringsovereenkomst wordt afgesloten onder de algemene voorwaarden van de betreffende cateraar. NLCATERING is geen partij bij deze overeenkomst, omdat we de individuele praktijk van dat moment van een cateraar niet kunnen beïnvloeden. De verantwoordelijkheid van NLCATERING is beperkt tot het proces van het overdragen van de bestelling aan de cateraar. De cateraar is zelf verantwoordelijk voor het in goede staat houden van de ontvangstapparatuur.</string>
+    <string name="termhed9">9. Klachten</string>
+    <string name="termhed9_content">behandeling Cateraars aangesloten bij NLCATERING zijn verantwoordelijk voor de juiste uitvoering van de afspraken met de klant. NLCATERING zorgt ervoor dat dit verloopt in overeenstemming met wat op deze site wordt gepubliceerd. NLCATERING bemiddelt in geschillen tussen cateraars en de klant om een ​​oplossing te vinden voor een probleem dat zich voordoet. U kunt klachten melden bij info@nlcatering.nl. Elke klacht zal door ons worden afgehandeld.</string>
+    <string name="termhed10">10. Cookies</string>
+    <string name="termhed10_content">NLCATERING maakt gebruik van een techniek genaamd "Cookies" om de site zo gebruiksvriendelijk mogelijk te maken. De Cookie die NLCATERING gebruikt, is een nummer, dus we kunnen u de volgende keer helpen. Uw postcode is bijvoorbeeld al ingevuld, u kunt ook uw gebruikersinformatie opslaan. Dit zorgt ervoor dat u uw bestelling sneller kunt plaatsen. Cookies worden ook gebruikt om te onthouden welke producten u in uw winkelwagen heeft. Dit is noodzakelijk voor het technisch functioneren van de website. Via de cookie wordt geen persoonlijke informatie via internet verzonden, het is slechts een (gecodeerd) nummer.</string>
+    <string name="termhed11">11. Intellectueel eigendomsrecht</string>
+    <string name="termhed11_content">NLCATERING is een beschermde merknaam. Het is niet toegestaan ​​om enig deel van de website te kopiëren, wijzigen, vertalen en / of te publiceren zonder de toestemming van NLCATERING. Als u geïnteresseerd bent om een ​​deel van onze site voor enig doel te gebruiken, neem dan contact op met info@nlcatering.nl en dien een aanvraag in.
+        NLCATERING, evenals deze overeenkomst zijn onderworpen aan Nederlands recht.</string>
+    <string name="termhed12">12. Allergiewetgeving</string>
+    <string name="termhed12_content">Sinds 13 december 2014 is de Allergen-wetgeving van kracht. NLCATERING functioneert als een tussenpersoon tussen eindklant en cateraar. Het assortiment dat op NLCATERING wordt gepubliceerd, wordt samengesteld en samengesteld door elke individuele cateraar. Het gebruik van basisingrediënten is in principe voorgeschreven, maar de cateraar heeft de vrijheid om te kiezen voor zijn eigen leverancier / merken. NLCATERING is niet verantwoordelijk voor de ingrediënten die voor het eten worden gebruikt. Als u allergieallergenen heeft, neem dan contact op met NLCATERING en wij vragen aan de cateraar welke allergenen worden gebruikt voor het betreffende voedsel.</string>
+
+
+
+
+</resources>
